@@ -98,5 +98,31 @@ const user = [
 
 // let [first, second] = user[0].roles;
 // console.log(first, second)
-let [_, second] = user[0].roles;
-console.log(second)
+// let [_, second] = user[0].roles;
+// console.log(second)
+
+// Spread and rest operators
+const names2 = ['John', 'Jane', 'Doe', 'Smith']
+//   spread and rest ...
+
+// Spread Operator - spreads those values right there as a copy
+const copynames = [...names2]
+// copynames
+// (4) ['John', 'Jane', 'Doe', 'Smith']
+// copynames.pop()
+// 'Smith'
+// copynames
+// (3) ['John', 'Jane', 'Doe']
+// names2
+// (4) ['John', 'Jane', 'Doe', 'Smith']
+
+const smallObject = {
+    name: "John",
+    age: 30,
+    city: "New York"
+}
+
+// copying objects
+const newObj = {...smallObject}
+
+// 
