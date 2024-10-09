@@ -19,3 +19,18 @@
 
 // OUTPUT: 
 // (5) [1, 1, 1, 1, 1]
+
+const names = ["Alice", "Bob", "Akash", "Charlie", "David", "Emma", "Frank", "Grace", "Henry", "Isabel", "Jack", "Kate", "Liam", "Mia", "Noah", "Olivia", "Peter", "Quinn", "Rachet", "Sam", "Tina"]
+
+
+// filter
+let newarr = names.filter(function(value) {
+    // if (value === "Alice") {
+    //     return true
+    //     // ['Alice']
+
+    // }
+    if (value.startsWith("A")) {
+        return true
+    }
+})
